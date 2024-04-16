@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,6 +19,8 @@
 }
 
 body {
+  font-family: 'JetBrains Mono', monospace;
+  font-optical-sizing: auto;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -31,3 +35,4 @@ body {
     text-wrap: balance;
   }
 }
+
